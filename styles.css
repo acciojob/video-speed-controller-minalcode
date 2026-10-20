@@ -1,2 +1,61 @@
 
 /* Your CSS Code here. */
+
+body {
+    margin: 0;
+    padding: 30px;
+    background: #193549;
+    font-family: Arial, sans-serif;
+    color: white;
+}
+
+.wrapper {
+    max-width: 765px;
+    margin: 0 auto;
+}
+
+video {
+    display: block;
+    width: 100%;
+    height: auto;
+    background: black;
+}
+
+.controls {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 12px;
+    padding: 15px;
+    background: #102331;
+}
+
+.controls button {
+    padding: 8px 12px;
+    border: 0;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.controls label {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+}
+
+.progress {
+    width: 100%;
+    height: 10px;
+    background: #555;
+    cursor: pointer;
+}
+
+.progress__filled {
+    width: 0%;
+    height: 100%;
+    background: #ffc600;
+}
+
+.controls input[type="range"] {
+    width: 90px;
+}
